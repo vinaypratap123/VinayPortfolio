@@ -26,7 +26,8 @@ body {
 /* -------------------------- header style --------------------------- */
 header {
     background: var(--dark);
-    height: 600px;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    
 }
 
 /* -------------------------- container style --------------------------- */
@@ -58,4 +59,46 @@ header nav {
 /* -------------------------- (header nav .branding) style --------------------------- */
 header nav .branding {
     margin-right: 3rem;
+}
+
+/* -------------------------- (.hero) style --------------------------- */
+.hero{
+    padding:10rem 0;
+}
+/* -------------------------- (.hero .left img) style --------------------------- */
+.hero .left img{
+    width:400px;
+}
+
+/* -------------------------- (.hero .right) style --------------------------- */
+.hero .right{
+    color:var(--pure);
+    /* margin-top:-7rem; */
+}
+/* -------------------------- (.hero .right h6) style --------------------------- */
+.hero .right h6{
+    font-size:1.6rem;
+    color:var(--primary);
+    margin-bottom:0.5rem;
+}
+/* -------------------------- (.hero .right h1) style --------------------------- */
+.hero .right h1{
+    font-size:3rem;
+    font-weight:100;
+    line-height:1.2;
+    margin-bottom:2rem;
+}
+/* -------------------------- (.hero .right h1 span) style --------------------------- */
+.hero .right h1 span{
+    color:var(--primary);
+}
+/* -------------------------- (.hero .right p) style --------------------------- */
+.hero .right p{
+    line-height:1.9;
+    margin-bottom:2rem;
+}
+
+/* -------------------------- (.hero .right) style --------------------------- */
+.hero .right {
+    margin-top:-7rem;
 }
